@@ -1,0 +1,38 @@
+{
+	"name": "meinfernbus-prices-radar",
+	"description": "Collect and store Flixbus/Meinfernbus price information for a set of important routes.",
+	"version": "0.0.0",
+	"keywords": [
+		"meinfernbus",
+		"flixbus",
+		"mfb",
+		"germany",
+		"coach",
+		"bus",
+		"prices",
+		"preise",
+		"deutschland"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/meinfernbus-prices-radar",
+	"repository": "juliuste/meinfernbus-prices-radar",
+	"bugs": "https://github.com/juliuste/meinfernbus-prices-radar/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js",
+		"route.js"
+	],
+	"dependencies": {
+		"config": "^1.24.0",
+		"fs-writefile-promise": "^2.0.0",
+		"meinfernbus": "^2.0.0",
+		"moment-timezone": "^0.5.9",
+		"p-queue": "^2.2.0"
+	},
+	"devDependencies": {},
+	"scripts": {},
+	"engines": {
+		"node": ">=6"
+	},
+	"license": "MIT"
+}

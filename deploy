@@ -1,0 +1,11 @@
+#!/bin/sh
+
+rsync -rav --delete \
+	--exclude '.*' \
+	--exclude node_modules \
+	. 'enceladus:~/meinfernbus-prices-radar/'
+
+ssh enceladus "\
+cd ~/meinfernbus-prices-radar
+npm i
+npm update"

@@ -1,0 +1,37 @@
+{
+	"days": 84, // 12 weeks
+	"routes": [
+		{"origin": 1, "destination": 1394}, // Berlin ZOB -> Wien
+		{"origin": 1, "destination": 1785}, // Berlin ZOB -> Brussels
+		{"origin": 1, "destination": 1905}, // Berlin ZOB -> Copenhagen
+		{"origin": 1, "destination": 5178}, // Berlin ZOB -> Barcelona
+		{"origin": 1, "destination": 3498}, // Berlin ZOB -> Lyon
+		{"origin": 1, "destination": 3508}, // Berlin ZOB -> Marseille
+		{"origin": 1, "destination": 3508}, // Berlin ZOB -> Paris
+		{"origin": 1, "destination": 2075}, // Berlin ZOB -> Rome
+		{"origin": 1, "destination": 2155}, // Berlin ZOB -> Venedig
+		{"origin": 1, "destination": 1374}, // Berlin ZOB -> Prague
+		{"origin": 1, "destination": 118}, // Berlin ZOB -> Hamburg
+		{"origin": 1, "destination": 96}, // Berlin ZOB -> Frankfurt
+		{"origin": 1, "destination": 107}, // Berlin ZOB -> Cologne
+		{"origin": 1, "destination": 94}, // Berlin ZOB -> Munich
+		{"origin": 1, "destination": 113}, // Berlin ZOB -> Leipzig
+		{"origin": 1, "destination": 1795}, // Berlin ZOB -> Budapest
+		{"origin": 1, "destination": 172}, // Berlin ZOB -> Luxembourg
+		{"origin": 1, "destination": 1334}, // Berlin ZOB -> Amsterdam
+		{"origin": 1, "destination": 1815}, // Berlin ZOB -> Gdansk
+		{"origin": 1, "destination": 2125}, // Berlin ZOB -> Szczecin
+		{"origin": 1, "destination": 7568}, // Berlin ZOB -> Warsaw
+		{"origin": 1, "destination": 1915}, // Berlin ZOB -> Krakow
+		{"origin": 1, "destination": 3798}, // Berlin ZOB -> Stockholm
+		{"origin": 1, "destination": 3298}, // Berlin ZOB -> Geneva
+		{"origin": 1, "destination": 1504}, // Berlin ZOB -> Basel
+		{"origin": 1, "destination": 89}, // Berlin ZOB -> Zurich
+		{"origin": 1, "destination": 1745}, // Berlin ZOB -> Bratislava
+		{"origin": 1, "destination": 1925}, // Berlin ZOB -> Ljubljana
+		{"origin": 1, "destination": 3848} // Berlin ZOB -> London
+	],
+	"returnTrips": true,
+	"apiOptions": {}, // options for meinfernbus
+	"outputPath": "./data/" // the path MUST and with '/' and this directory MUST exist
+}

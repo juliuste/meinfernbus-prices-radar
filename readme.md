@@ -10,7 +10,7 @@ Collect and store [FlixBus/Meinfernbus](https://flixbus.de) price information fo
 ## Similar Projects
 
 - [meinfernbus](https://github.com/juliuste/meinfernbus/) - "JavaScript client for the FlixBus/Meinfernbus API."
-- [db-prices-radar](https://github.com/derhuerst/db-prices-radar/) - "Collect and store Deutsche Bahn price information for a set of important routes."
+- [db-prices-radar](https://github.com/juliuste/db-prices-radar/) - "Collect and store Deutsche Bahn price information for a set of important routes."
 - [bahn.guru](https://bahn.guru) - "DB price calendar"
 
 ## Contributing
